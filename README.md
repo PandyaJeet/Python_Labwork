@@ -1,1 +1,2 @@
 # Python_Labwork
+I am studyin python with a generic bookish approach, I will give you topic name based on that provide me with unusual facts or questions which could only be found during implementation or deep knowledge about the language itself 
