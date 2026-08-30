@@ -1,0 +1,5 @@
+n = input("Enter String : ")
+n = n.upper()
+print("Uppercase: "+n)
+n = n.lower()
+print("Lowercase: "+n)
