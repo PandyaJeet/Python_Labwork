@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^python - <<'PY'\nfrom pathlib import Path\np = Path\\('/workspaces/Python_Labwork/Assignment-3/Assignment-3\\.pdf'\\)\nprint\\('file size:', p\\.stat\\(\\)\\.st_size\\)\ntry:\n    import PyPDF2\n    reader = PyPDF2\\.PdfReader\\(str\\(p\\)\\)\n    print\\('pages:', len\\(reader\\.pages\\)\\)\n    txt='\\\\n'\\.join\\(page\\.extract_text\\(\\) or '' for page in reader\\.pages\\)\n    print\\(txt\\[:12000\\]\\)\nexcept Exception as e:\n    print\\('PDF read failed:', type\\(e\\)\\.__name__, e\\)\nPY$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
